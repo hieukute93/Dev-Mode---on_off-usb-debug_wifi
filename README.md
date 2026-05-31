@@ -17,14 +17,18 @@ Flutter 3.0 trở lên
 ADB cài đặt không có máy tính (để được phép)
 Instalação
 1. Biên dịch APK
+2. 
 cd dev-mode
+
 flutter pub get
+
 flutter build apk --release
+
 O APK será gerado embuild/app/outputs/flutter-apk/app-release.apk
 
-2. Instalar no dispositivo
+4. Instalar no dispositivo
 adb install build/app/outputs/flutter-apk/app-release.apk
-3. Giấy phép nhượng quyền (OBRIGATÓRIO)
+5. Giấy phép nhượng quyền (OBRIGATÓRIO)
 Đối với chức năng của ứng dụng, bạn có thể đồng ý cho phép WRITE_SECURE_SETTINGSthông qua ADB một cách dễ dàng :
 
 adb shell pm grant com.cherihub.devmode android.permission.WRITE_SECURE_SETTINGS
