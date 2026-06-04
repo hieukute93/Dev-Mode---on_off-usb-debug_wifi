@@ -3,7 +3,7 @@ Mã nguồn mở GitHub
 
 Ứng dụng Flutter đơn giản hóa bộ điều khiển dưới dạng cấu hình để giải mã trình điều khiển Android nếu cần thiết.
 
-Được phát triển bởi cheri-hub
+Được phát triển bởi hiếu
 
 Chức năng
 ✅ Luôn tỉnh táo - Manter a tela ligada enquanto carrega
